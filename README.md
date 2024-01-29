@@ -1,4 +1,4 @@
-# counterfactual_KGR
+# Counterfactual Knowledge Graph Reasoning (CFKGR)
 
 This repository contains the code for the paper Counterfactual Reasoning with Knowledge Graph Embeddings.
 
