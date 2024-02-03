@@ -1,3 +1,4 @@
+\usepackage{hyperref}
 # Counterfactual Knowledge Graph Reasoning (CFKGR)
 
 This repository contains the code for the paper Counterfactual Reasoning with Knowledge Graph Embeddings to be presented at EACL 2024.
