@@ -1,0 +1,2 @@
+model,f1,f1_std,recall,recall_std,precision,precision_std,changed,changed_std,unchanged,unchanged_std
+transe,0.526,0.001,0.936,0.001,0.366,0.0,0.766,0.002,0.478,0.0

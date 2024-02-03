@@ -1,0 +1,2 @@
+model,f1,f1_std,recall,recall_std,precision,precision_std,changed,changed_std,unchanged,unchanged_std
+conve,0.527,0.003,0.612,0.003,0.463,0.001,0.17,0.002,0.561,0.002

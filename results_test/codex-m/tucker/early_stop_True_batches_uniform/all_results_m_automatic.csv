@@ -1,0 +1,2 @@
+model,f1,f1_std,recall,recall_std,precision,precision_std,changed,changed_std,unchanged,unchanged_std
+tucker,0.661,0.001,0.845,0.001,0.543,0.002,0.437,0.004,0.669,0.002

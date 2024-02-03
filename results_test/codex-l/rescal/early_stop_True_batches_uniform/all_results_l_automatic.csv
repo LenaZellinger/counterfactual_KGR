@@ -1,0 +1,2 @@
+model,f1,f1_std,recall,recall_std,precision,precision_std,changed,changed_std,unchanged,unchanged_std
+rescal,0.539,0.001,0.939,0.001,0.378,0.0,0.846,0.004,0.482,0.001
