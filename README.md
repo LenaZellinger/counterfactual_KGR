@@ -1,7 +1,7 @@
 # Counterfactual Knowledge Graph Reasoning (CFKGR)
 
 This repository contains the code for the paper Counterfactual Reasoning with Knowledge Graph Embeddings to be presented at EACL 2024.
-If you have any questions, please raech out to \hyref{lena.zellinger@univie.ac.at}.
+If you have any questions, please raech out to lena.zellinger@univie.ac.at.
 
 # Acknowledgments
 
