@@ -167,17 +167,3 @@ if __name__ == "__main__":
 
     if args.save == 'True':
         cckg_test_with_preds.to_csv(os.path.join(test_folder, 'test_predictions.csv'))
-        # maybe save all here? but then again not even used
-        all_results.loc[len(all_results)] = {'model': args.model_name,
-                                             'f1': np.round(np.mean(f1_list), 4),
-                                             'f1_std': np.round(np.std(f1_list), 4),
-                                             'recall': np.round(np.mean(recall_list), 4),
-                                             'recall_std': np.round(np.std(recall_list), 4),
-                                             'precision': np.round(np.mean(precision_list), 4),
-                                             'precision_std': np.round(np.std(precision_list), 4),
-                                             'changed': np.round(np.mean(acc_inf_list), 4),
-                                             'changed_std': np.round(np.std(acc_inf_list), 4),
-                                             'unchanged': np.round(np.mean(retention_list), 4),
-                                             'unchanged_std': np.round(np.std(retention_list), 4)
-                                             }
-        all_results.to_csv(os.path.join(test_folder, f'all_results.csv'), index=False)
