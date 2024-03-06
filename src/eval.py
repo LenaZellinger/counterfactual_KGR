@@ -12,7 +12,7 @@ import torch
 from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score, confusion_matrix
 from tqdm import tqdm
 
-from kge.job.train_adapted_couldd_new import TrainingJob
+from kge.job.train_adapted_couldd import TrainingJob
 from kge.model import KgeModel
 from src.codex_functions import load_neg_spo, get_X_y, get_threshold, generate_neg_spo
 
