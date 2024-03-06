@@ -29,6 +29,6 @@ Below is an overview over the columns in the data files.
 
 **"cf"**, **"context"**, **"test_instance"**: full triples of hypothetical scenario, context and current test instance expressed via Wikidata labels
 
-**"cf_libkge"**, **"context_libkge"**, **"test_instance_libkge"**: full triples of hypothetical scenario, context and current test instance expressed via libkge ids
+**"cf_libkge"**, **"context_libkge"**, **"test_instance_libkge"**: full triples of hypothetical scenario, context and current test instance expressed via LibKGE ids
 
 **"text"**: verbalization of the test instance
