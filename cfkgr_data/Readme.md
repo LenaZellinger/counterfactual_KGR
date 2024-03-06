@@ -3,7 +3,7 @@ Below is an overview over the columns in the data files.
 
 **"head"**, **"rel"**, **"tail"**: head, relation and tail of the instance that should be scored expressed via Wikidata labels
 
-**"head_libkge"**, **"rel_libkge"**, **"tail_libkge"**: head, relation and tail of the instance that should be scored expressed via LibKGE ids (this expression is compatible with COULDD and the CoDEx models)
+**"head_libkge"**, **"rel_libkge"**, **"tail_libkge"**: head, relation and tail of the instance that should be scored expressed via LibKGE ids
 
 **"type"**: type of the test case; possible entries are: conclusion, far_fact, near_fact, head_corr, head_corr_near, head_corr_far, rel_corr, rel_corr_near, rel_corr_far, tail_corr, tail_corr_near, tail_corr_far
 
