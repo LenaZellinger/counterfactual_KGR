@@ -1,16 +1,21 @@
+"""
+This file contains the mappings for converting KG triples to prompts.
+Some verbalizations were taken from or are based on https://github.com/yanaiela/pararel/tree/main (ParaRel).
+"""
+
 import numpy as np
 
 rel_map_context = {
-    'P108': 'is employed by', # employer # checked
-    'P112': 'is founded by', # founded by # checked
-    'P119': 'is buried in', # place of burial # checked
-    'P131': 'is located in the administrative territorial entity', # located in the administrative territorial entity # checked
-    'P138': 'is named after', # named after # checked
-    'P140': 'belongs to the religion or is associated with the religion', # religion or worldview (but in CoDEx it's titled religion) # checked
-    'P1412': 'speaks, writes or signs', # languages spoken, written or signed # checked
-    'P1454': 'has the legal form of a', # legal form # checkmark
-    'P159': 'is headquartered in', # headquarters location # checked
-    'P17': 'is in the country', # country # checked
+    'P108': 'is employed by', # employer 
+    'P112': 'is founded by', # founded by
+    'P119': 'is buried in', # place of burial
+    'P131': 'is located in the administrative territorial entity', # located in the administrative territorial entity
+    'P138': 'is named after', # named after
+    'P140': 'belongs to the religion or is associated with the religion', # religion or worldview (but in CoDEx it's titled religion)
+    'P1412': 'speaks, writes or signs', # languages spoken, written or signed
+    'P1454': 'has the legal form of a', # legal form
+    'P159': 'is headquartered in', # headquarters location
+    'P17': 'is in the country', # country
     'P170': 'was created by', # creator
     'P172': 'belongs to the ethnic group', # ethnic group
     'P19': 'was born in', # place of birth
@@ -77,8 +82,6 @@ reverse_rel_map_context = {
     'P50': 'is the author of',  # author
     'P407': 'is the language of the work or name' # PARAREL language of work or name; language associated with this creative work (such as books, shows, songs, broadcasts or websites) or a name
 }
-
-# alternatively: add 3 random types per entity? or too cumbersome to read?
 
 def verbalize_triple(data, triple, rel_mapping, reverse_rel_mapping, type_info=True):
 
