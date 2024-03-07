@@ -140,7 +140,7 @@ if __name__ == "__main__":
         unchanged = compute_unchanged_score(cf_labels_couldd, binary_preds, og_labels_couldd)
         f1, recall, precision = compute_f1(cf_labels_couldd, binary_preds)
         end = time.time()
-        print('Total time for one combination:', end-start)
+        print('Total time for one test run:', end-start)
 
         cckg_test_with_preds[f'couldd_preds_{i}'] = preds
         cckg_test_with_preds[f'couldd_preds_{i}_binary'] = binary_preds.cpu().numpy()
