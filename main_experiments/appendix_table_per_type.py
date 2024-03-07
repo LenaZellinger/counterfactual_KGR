@@ -83,7 +83,7 @@ for dataset in datasets.keys():
         if method != "chatgpt":
             pred_df = pd.read_csv(os.path.join(os.path.join(data_dir, f"codex-{dataset}", method, "early_stop_True_batches_uniform", f"test_predictions.csv")))
         else:
-            pred_df = pd.read_csv(os.path.join(path_to_codex_folder, "gpt_predictions", f"test_predictions_binary_chatgpt_{dataset}_with_rerun.csv"))
+            pred_df = pd.read_csv(os.path.join(path_to_codex_folder, "gpt_predictions", f"test_predictions_binary_chatgpt_{dataset}.csv"))
 
         orig_dict, ccould_dict = {}, {}
 
